@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+}
+
+header div h1{
+    font-family: 'Rock Salt', sans-serif;
+    font-size: 8vh;
+}
+
+header div h3{
+    font-family: 'Satisfy', sans-serif;
+    font-size: 5vh;
+}
+
+header img {
+    width: 10vw;
+}
