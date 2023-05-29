@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+main{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: black;
+    color: white;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -27,4 +34,46 @@ header div h3{
 
 header img {
     width: 10vw;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(109, 6, 6);
+    
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color: green;
+}
+
+.menu ul{
+    font-family: 'Jolly Lodger', sans-serif;
+    font-size: 4vh;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.products-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5vh;
+}
+
+.products-container img {
+    width: 20vw;
+    height: 40vh;
+}
+
+.products-container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
