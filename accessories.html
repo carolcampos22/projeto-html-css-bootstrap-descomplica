@@ -27,7 +27,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="container-fluid p-2 text-center">
         <img
             src="https://img.freepik.com/vetores-premium/guitarra-eletrica-em-fundo-branco-instrumentos-musicais-de-cordas-estilo-bonito-dos-desenhos-animados-plana-ilustracao-vetorial_498048-220.jpg?w=2000">
         <div>
@@ -35,65 +35,85 @@
             <h1>Campos Rock Shop!</h1>
         </div>
     </header>
-    <div class="menu">
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./clothes.html">Clothes</a></li>
-            <li><a href="./shoes.html">Shoes</a></li>
-            <li><a href="./accessories.html">Accessories</a></li>
-            <li><a href="./instruments.html">Instruments</a></li>
-        </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link  " aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./clothes.html">Clothes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./shoes.html">Shoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./accessories.html">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./instruments.html">Instruments</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
     <hr>
     <main>
         <h1>Accessories</h1>
-        <div class="products-container">
-            <div>
+        <div class="container-fluid text-center">
+            <div class="col text-center">
                 <img src="https://i.pinimg.com/originals/bc/09/64/bc0964077c812b8b5ab0aeebe8006925.jpg">
                 <p>Anel Guns n' Roses</p>
                 <h3>R$36,99</h3>
             </div>
 
-            <div>
+            <div class="col text-center">
                 <img
                     src="https://cdn.shopify.com/s/files/1/0624/9644/0554/products/product-image-1341319787.jpg?v=1646425136">
                 <p>Colar Guns n' Roses</p>
                 <h3>R$64,99</h3>
             </div>
 
-            <div>
+            <div class="col text-center">
                 <img src="https://i.pinimg.com/550x/e2/1e/99/e21e994c062a1b1db3c9ff17ff962bcf.jpg">
                 <p>Pulseira Spike</p>
                 <h3>R$44,99</h3>
             </div>
 
-            <div>
+            <div class="col text-center">
                 <img
                     src="https://a-static.mlcdn.com.br/800x560/pulseira-masculina-bracelete-cruz-rock-aco-silicone-duque-duque-acessorios/duquesasemijoias02/963p/8ca9437c53ee7b4974af4556ed4797c6.jpeg">
                 <p>Pulseira Masculina Cruz</p>
                 <h3>R$64,99</h3>
             </div>
 
-            <div>
+            <div class="col text-center">
                 <img src="https://http2.mlstatic.com/D_NQ_NP_977626-MLB31840263852_082019-O.jpg">
                 <p>Munhequeira Couro Preto</p>
                 <h3>R$40,00</h3>
             </div>
 
-            <div>
+            <div class="col text-center">
                 <img
                     src="https://img.elo7.com.br/product/original/2476A2D/corrente-tripla-para-calca-e-carteira-metal-inox-carteira.jpg">
                 <p>Corrente Tripla</p>
                 <h3>R$119,80</h3>
             </div>
 
-            <div>
+            <div class="col text-center">
                 <img src="https://m.media-amazon.com/images/I/71C0mgHNTRS._AC_SX385_.jpg">
                 <p>Cinto Preto Cravejado Punk Rock</p>
                 <h3>R$263,00</h3>
             </div>
 
-            <div>
+            <div class="col text-center">
                 <img src="https://http2.mlstatic.com/D_NQ_NP_831758-MLB46792947313_072021-O.webp">
                 <p>Pingente Crucifixo Rock Com Corrente Aço Cirúrgico</p>
                 <h3>R$79,90</h3>
@@ -101,6 +121,10 @@
 
         </div>
     </main>
+
+    <footer>
+        <p>Desenvolvido por Carolina M. Campos para fins acadêmicos. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>

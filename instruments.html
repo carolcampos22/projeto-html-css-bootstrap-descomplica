@@ -7,10 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instruments - Campos Rock Shop</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Leckerli+One&family=Rajdhani:wght@400;600&family=Roboto:wght@100;300;500;700&family=Rock+Salt&family=Satisfy&family=Staatliches&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Leckerli+One&family=Rajdhani:wght@400;600&family=Roboto:wght@100;300;500;700&family=Rock+Salt&family=Satisfy&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Leckerli+One&family=Rajdhani:wght@400;600&family=Roboto:wght@100;300;500;700&family=Rock+Salt&family=Satisfy&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Leckerli+One&family=Rajdhani:wght@400;600&family=Roboto:wght@100;300;500;700&family=Rock+Salt&family=Satisfy&family=Staatliches&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -22,7 +27,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="container-fluid p-2 text-center">
         <img
             src="https://img.freepik.com/vetores-premium/guitarra-eletrica-em-fundo-branco-instrumentos-musicais-de-cordas-estilo-bonito-dos-desenhos-animados-plana-ilustracao-vetorial_498048-220.jpg?w=2000">
         <div>
@@ -30,71 +35,101 @@
             <h1>Campos Rock Shop!</h1>
         </div>
     </header>
-    <div class="menu">
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./clothes.html">Clothes</a></li>
-            <li><a href="./shoes.html">Shoes</a></li>
-            <li><a href="./accessories.html">Accessories</a></li>
-            <li><a href="./instruments.html">Instruments</a></li>
-        </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link  " aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./clothes.html">Clothes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./shoes.html">Shoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./accessories.html">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./instruments.html">Instruments</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
     <hr>
 
     <main>
         <h1>Instruments</h1>
-        <div class="products-container">
-            <div>
-                <img src="https://cdn.shopify.com/s/files/1/0331/4689/6519/products/Gibson-SG-Standard-Electric-Guitar-Heritage-Cherry-Close_1200x.jpg?v=1614904075">
-                <p>Ginson SG Standart Electric Guitar Heritage Cherry</p>
+        <div class="container-fluid text-center">
+            <div class="col text-center">
+                <img
+                    src="https://cdn.shopify.com/s/files/1/0331/4689/6519/products/Gibson-SG-Standard-Electric-Guitar-Heritage-Cherry-Close_1200x.jpg?v=1614904075">
+                <p>Gibson SG Standart Electric Guitar Heritage Cherry</p>
                 <h3>R$15976,00</h3>
             </div>
-    
-            <div>
-                <img src="https://cdn.shopify.com/s/files/1/1621/5363/products/surc6_c8491ee1-63c6-4230-a40a-914cc76b0e6f-sw.jpg?v=1676045710">
+
+            <div class="col text-center">
+                <img src="https://cdn.shopify.com/s/files/1/1621/5363/products/Classic123.jpg?v=1676045753">
                 <p>Eastwood Classic Tenor Electric Guitar</p>
-                <h3>R$3740,00</h3>
+                <h3>R$3772,00</h3>
             </div>
-    
-            <div>
-                <img src="https://tfcpeb.vteximg.com.br/arquivos/ids/245517-1000-1000/100870.jpg?v=638183164633730000">
+
+            <div class="col text-center">
+                <img
+                    src="https://d3alv7ekdacjys.cloudfront.net/Custom/Content/Products/10/88/1088183_bateria-acustica-premium-dx722-bumbo-22-com-banco-pratos-e-baquetas_m14_637894956853740680.jpg">
                 <p>Bateria Acústica Premium</p>
-                <h3>R$2845,00</h3>
+                <h3>R$2399,00</h3>
             </div>
-    
-            <div>
-                <img src="https://cdnbatera.bateraclube.com.br/files/122/bateria-ludwig-classic-maple-natural-lacquer-22810121416-shell-pack2180..jpg">
+
+            <div class="col text-center">
+                <img
+                    src="https://cdnbatera.bateraclube.com.br/files/122/bateria-ludwig-classic-maple-natural-lacquer-22810121416-shell-pack2180..jpg">
                 <p>Bateria Ludwuig Classic Maple Gold Sparkle Bumbo</p>
                 <h3>R$33999,24</h3>
             </div>
-    
-    
-            <div>
-                <img src="https://d2r9epyceweg5n.cloudfront.net/stores/001/751/361/products/img_80811-5d39d75398bd4e761f16522979564657-1024-1024.jpg">
+
+
+            <div class="col text-center">
+                <img
+                    src="https://d2r9epyceweg5n.cloudfront.net/stores/001/751/361/products/img_80811-5d39d75398bd4e761f16522979564657-1024-1024.jpg">
                 <p>Contrabaixo SGT PJ Classic Lake placid Blue</p>
                 <h3>R$8990,00</h3>
             </div>
-    
-            <div>
+
+            <div class="col text-center">
                 <img src="https://http2.mlstatic.com/D_NQ_NP_723665-MLB49178341868_022022-O.webp">
                 <p>Contrabaixo Elétrico Tagima</p>
                 <h3>R$1412,09</h3>
             </div>
 
-            <div>
-                <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/119/000/products/1181-063d8df353356b73af16511574067638-240-0.jpg">
+            <div class="col text-center">
+                <img
+                    src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/119/000/products/1181-063d8df353356b73af16511574067638-240-0.jpg">
                 <p>Violão Taylor PS14ce Grand Auditorium Sunburst Replica Chinesa</p>
                 <h3>R$3299,00</h3>
             </div>
 
-            <div>
-                <img src="https://tfcrd2.vteximg.com.br/arquivos/ids/166927-1000-1000/IORGIO-18-1.jpg?v=637420175951730000">
+            <div class="col text-center">
+                <img
+                    src="https://tfcrd2.vteximg.com.br/arquivos/ids/166927-1000-1000/IORGIO-18-1.jpg?v=637420175951730000">
                 <p>Violão Di Giorgio Estudante 18 Nylon Acústico </p>
                 <h3>R$950,00</h3>
             </div>
         </div>
-        
+
     </main>
+
+    <footer>
+        <p>Desenvolvido por Carolina M. Campos para fins acadêmicos. Todos os direitos reservados.</p>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

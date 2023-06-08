@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Underdog', cursive;
 }
 
 main{
@@ -9,6 +10,7 @@ main{
     max-height: 100%;
     background-color: black;
     color: white;
+    margin-top: -2vh;
 }
 
 header{
@@ -60,20 +62,35 @@ a:active{
 }
 
 .products-container{
+    
+    font-size: 2vh;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 5vh;
 }
 
-.products-container img {
+/* .col img {
+    margin-bottom: 1vh;
     width: 20vw;
     height: 40vh;
-}
+} */
 
 .products-container div{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-carousel{
+    width: 20vw;
+    height: 70vh
+}
+
+footer {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
