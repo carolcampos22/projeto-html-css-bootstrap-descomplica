@@ -11,12 +11,18 @@ main{
     background-color: black;
     color: white;
     margin-top: -2vh;
+    margin-bottom: 7vh;
+}
+
+body {
+    background-color: black;
 }
 
 header{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white
 }
 
 header div {
@@ -93,4 +99,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: pink;
 }
+
+@media (max-width: 770px) { 
+    header{
+        flex-direction: column;
+    }
+ }
