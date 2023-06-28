@@ -76,12 +76,6 @@ a:active{
     padding-top: 5vh;
 }
 
-/* .col img {
-    margin-bottom: 1vh;
-    width: 20vw;
-    height: 40vh;
-} */
-
 .products-container div{
     display: flex;
     flex-direction: column;
@@ -101,6 +95,77 @@ footer {
     align-items: center;
     background-color: pink;
 }
+
+.quem-somos-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+
+.quem-somos-texto{
+    width: 40vw;
+    font-family: 'Underdog', cursive;
+    font-size: 2vh;
+}
+
+.quem-somos-img img{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 50%;
+    
+}
+
+.fotos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.fotos img{
+    border-radius: 50%;
+    width: 12vw;
+    height: 12vw;
+    align-self: center;
+    margin-top: 2vh;
+    border: 5px solid gray;
+}
+
+.arrivals-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.arrivals-container img{
+    border-radius: 50%;
+    width: 12vw;
+    height: 12vw;
+    border: 5px solid gray;
+    align-self: center;
+    margin-top: 2vh;
+    
+}
+
+.img-arrivals{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    align-self: center;
+    
+}
+
+.visit-page-button{
+    font-weight: 700;
+    font-size: 3vh;
+    border: none;
+    
+    
+}
+
 
 @media (max-width: 770px) { 
     header{
