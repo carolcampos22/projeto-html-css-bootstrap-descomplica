@@ -89,12 +89,6 @@ a:active{
     height: 70vh
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: pink;
-}
 
 .quem-somos-container{
     display: flex;
@@ -166,9 +160,38 @@ footer {
     
 }
 
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    
+}
+
+footer img{
+    width: 5vw;
+}
+
+footer div:nth-child(1){
+    
+    display: flex;
+    align-items: center;
+
+}
+
+footer div:nth-child(1) h3{
+    font-family: 'Rock Salt', sans-serif;
+}
+
+footer div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
 
 @media (max-width: 770px) { 
-    header{
+    header, footer{
         flex-direction: column;
     }
  }
