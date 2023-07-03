@@ -25,4 +25,12 @@ Homepage:
  ## Link do site:
  https://campos-rock-shop.surge.sh/
 
+## Como rodar este projeto:
+```
+#Clone este repositório:
+git clone https://github.com/carolcampos22/projeto-html-css-bootstrap-descomplica
+
+#Abra a pasta do projeto
+#Procure pelo arquivo index.html (ou quanquer outro .html) e abra-o em seu navegador
+```
  
